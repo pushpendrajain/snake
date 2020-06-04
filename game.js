@@ -10,7 +10,7 @@ function main(currentTime) {
 
     if (gameOver) {
        if (confirm('You Lose!!. \n\n Press OK to restart.')) {
-           window.location = '/snake'
+           window.location = '/'
        }
        return
     }
